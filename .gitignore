@@ -20,4 +20,4 @@ pnpm-lock.yaml
 *.ntvs*
 *.njsproj
 *.sln
-*.sw*
+*.sw*!/.stylelintcache
