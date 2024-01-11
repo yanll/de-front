@@ -1,4 +1,5 @@
 import { pathResolve } from './common'
+
 export default {
   build: {
     //压缩

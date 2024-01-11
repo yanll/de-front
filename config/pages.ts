@@ -1,5 +1,6 @@
 import path from 'path'
 import { PAGES, ROOT_DIR } from './pagesConfig'
+
 export default {
   build: {
     rollupOptions: {

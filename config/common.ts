@@ -15,11 +15,13 @@ import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components-secondary/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components-secondary/resolvers'
+
 const root = process.cwd()
 
 export function pathResolve(dir: string) {
   return resolve(root, '.', dir)
 }
+
 export default {
   base: './',
   plugins: [
